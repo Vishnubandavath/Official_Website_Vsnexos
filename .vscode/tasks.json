@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "serve-static",
+      "type": "shell",
+      "command": "npx",
+      "args": ["--yes", "http-server", ".", "-p", "8080", "-c-1"],
+      "isBackground": true,
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {}
+      },
+      "problemMatcher": {
+        "owner": "zorvexa-static",
+        "pattern": {
+          "regexp": "^$",
+          "file": 1,
+          "location": 2,
+          "message": 3
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Starting up http-server",
+          "endsPattern": "Available on:"
+        }
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      }
+    }
+  ]
+}
