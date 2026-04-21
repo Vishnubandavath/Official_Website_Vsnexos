@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vsnexostech.xyz/sitemap.xml
+Sitemap: https://vsnexos.com/sitemap.xml
