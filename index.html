@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,10 +26,6 @@
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#0a0e1a" />
   <link rel="canonical" href="https://vsnexos.com/" />
-  
-  <!-- Indexing Signals Added -->
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://vsnexos.com/sitemap.xml">
-  <link rel="robots" href="https://vsnexos.com/robots.txt">
 
   <!-- Geo tags -->
   <meta name="geo.region" content="IN-TG" />
@@ -42,7 +39,7 @@
   <meta property="og:title" content="Vsnexos Tech | Build Your Digital Presence" />
   <meta property="og:description"
     content="Websites, SEO & marketing that drive results. Enterprise-grade digital solutions for modern businesses." />
-  <meta property="og:image" content="https://picsum.photos/seed/vsnexos-og/1200/630.jpg" />
+  <meta property="og:image" content="https://vsnexos.com/assets/vsnexos-og-image.jpg" />
   <meta property="og:locale" content="en_IN" />
   <meta property="og:site_name" content="Vsnexos Tech" />
 
@@ -52,7 +49,7 @@
   <meta name="twitter:title" content="Vsnexos Tech | Build Your Digital Presence" />
   <meta name="twitter:description"
     content="Websites, SEO & marketing that drive results. Enterprise-grade digital solutions." />
-  <meta name="twitter:image" content="https://picsum.photos/seed/vsnexos-twitter/1200/630.jpg" />
+  <meta name="twitter:image" content="https://vsnexos.com/assets/vsnexos-twitter-image.jpg" />
 
   <!-- Structured Data - Organization -->
   <script type="application/ld+json">
@@ -75,39 +72,99 @@
     "sameAs": [
       "https://www.linkedin.com/in/vsnexos/",
       "https://www.instagram.com/vsnexos/",
-      "https://www.threads.com/@vsnexos"
+      "https://www.threads.com/@file"
     ],
-    "description": "Digital solutions company offering website development, landing page design, SEO optimization, and digital marketing services."
+    "description": "Digital solutions company offering website development, landing page design, SEO optimization, and digital marketing services.",
+    "founder": {
+      "@type": "Person",
+      "name": "Vsnexos Team"
+    }
   }
   </script>
 
-  <!-- Structured Data - FAQPage (Added for Rich Snippets) -->
+  <!-- Structured Data - Local Business -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "What technologies does Vsnexos Tech use for web development?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We specialize in the MERN stack (MongoDB, Express.js, React, Node.js), Next.js for high-performance SEO-friendly apps, and Python for backend data processing. We also utilize AWS cloud infrastructure for scalable deployment."
-      }
-    }, {
-      "@type": "Question",
-      "name": "Do you offer SEO services alongside web development?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, SEO is integral to our development process. We build websites with semantic HTML5, optimized Core Web Vitals, and technical schema markup. We also offer post-launch digital marketing campaigns to improve organic visibility."
-      }
-    }, {
-      "@type": "Question",
-      "name": "How long does it take to complete a custom software project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Project timelines vary based on complexity. A standard corporate website takes 4-6 weeks, while custom web applications or enterprise software can take 3-6 months. We provide a detailed roadmap during the planning phase."
-      }
-    }]
+    "@type": "LocalBusiness",
+    "name": "Vsnexos Tech",
+    "image": "https://vsnexos.com/assets/Vsnexos-logo-svg.svg",
+    "telephone": "+91-9100665935",
+    "email": "support@vsnexos.com",
+    "url": "https://vsnexos.com/",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jaya Apartment, HUDA Colony, Saroornagar",
+      "addressLocality": "Hyderabad",
+      "addressRegion": "Telangana",
+      "postalCode": "500035",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 17.375266,
+      "longitude": 78.486672
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/vsnexos/"
+    ]
+  }
+  </script>
+
+  <!-- Structured Data - Service -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Website Development & Digital Marketing",
+    "provider": {
+      "@type": "Organization",
+      "name": "Vsnexos Tech"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Digital Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Website Development"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "SEO Optimization"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Digital Marketing"
+          }
+        }
+      ]
+    }
   }
   </script>
 
@@ -118,375 +175,22 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
 
-  <!-- External Animation Libraries -->
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/Vsnexos-logo-svg.svg" />
+  <link rel="apple-touch-icon" href="assets/Vsnexos-logo-svg.svg" />
+
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-
-  <style>
-    /* --- RESET & VARIABLES --- */
-    :root {
-      --bg-dark: #0a0e1a;
-      --bg-card: rgba(20, 25, 40, 0.7);
-      --gold: #d4af37;
-      --gold-bright: #f3e5ab;
-      --gold-dim: #8a7020;
-      --text-main: #e2e8f0;
-      --text-muted: #94a3b8;
-      --white: #ffffff;
-      --accent-blue: #3b82f6;
-      --font-heading: 'Outfit', sans-serif;
-      --font-body: 'DM Sans', sans-serif;
-      --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    
-    html { scroll-behavior: smooth; }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: var(--font-body);
-      font-size: 16px;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); line-height: 1.2; margin-bottom: 1rem; color: var(--white); }
-    p { margin-bottom: 1rem; color: var(--text-muted); }
-    a { text-decoration: none; color: inherit; transition: 0.3s var(--ease); }
-    ul { list-style: none; }
-    img { max-width: 100%; display: block; }
-    button, input, textarea, select { font-family: inherit; border: none; outline: none; }
-
-    /* --- UTILITIES --- */
-    .container {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 0 20px;
-      position: relative;
-    }
-    .text-gradient {
-      background: linear-gradient(135deg, var(--gold-bright), var(--gold));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      display: inline-block;
-    }
-    .glass-card {
-      background: var(--bg-card);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 16px;
-      padding: 2rem;
-      box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
-    }
-    .section { padding: 100px 0; position: relative; }
-    .section__header { text-align: center; max-width: 800px; margin: 0 auto 4rem; }
-    .section__label {
-      color: var(--gold);
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: 0.85rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      display: block;
-    }
-    .section__title { font-size: 2.5rem; margin-bottom: 1.5rem; }
-    .section__lead { font-size: 1.125rem; }
-
-    /* --- BUTTONS --- */
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 12px 28px;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 1rem;
-      cursor: pointer;
-      gap: 0.5rem;
-      transition: all 0.3s var(--ease);
-    }
-    .btn--primary {
-      background: var(--gold);
-      color: var(--bg-dark);
-    }
-    .btn--primary:hover {
-      background: var(--gold-bright);
-      transform: translateY(-2px);
-      box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
-    }
-    .btn--outline {
-      border: 1px solid var(--gold);
-      color: var(--gold);
-      background: transparent;
-    }
-    .btn--outline:hover {
-      background: rgba(212, 175, 55, 0.1);
-      color: var(--gold-bright);
-    }
-    .btn--full { width: 100%; }
-    .btn--lg { padding: 16px 36px; font-size: 1.125rem; }
-
-    /* --- LOADER --- */
-    .page-loader {
-      position: fixed; inset: 0; z-index: 9999;
-      background: var(--bg-dark);
-      display: flex; justify-content: center; align-items: center;
-      transition: opacity 0.5s ease;
-    }
-    .page-loader.loaded { opacity: 0; pointer-events: none; }
-    .page-loader__bar {
-      width: 200px; height: 2px; background: rgba(255,255,255,0.1);
-      margin-top: 20px; overflow: hidden; position: relative;
-    }
-    .page-loader__bar::after {
-      content: ''; position: absolute; top: 0; left: 0; height: 100%; width: 0;
-      background: var(--gold); animation: load 1.5s ease-in-out forwards;
-    }
-    @keyframes load { 0% { width: 0; } 100% { width: 100%; } }
-
-    /* --- SCROLL PROGRESS --- */
-    .scroll-progress {
-      position: fixed; top: 0; left: 0; height: 3px; background: var(--gold);
-      width: 0%; z-index: 1001; transition: width 0.1s;
-    }
-
-    /* --- HEADER --- */
-    .site-header {
-      position: fixed; top: 0; left: 0; width: 100%; z-index: 100;
-      padding: 20px 0; transition: 0.3s; background: rgba(10, 14, 26, 0.8);
-      backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,0.05);
-    }
-    .site-header__inner {
-      display: flex; justify-content: space-between; align-items: center;
-    }
-    .site-header__logo { height: 50px; width: auto; }
-    .site-nav__list { display: flex; gap: 2rem; align-items: center; }
-    .site-nav a { font-weight: 500; font-size: 0.95rem; }
-    .site-nav a:hover { color: var(--gold); }
-    .site-header__toggle { display: none; background: none; color: white; cursor: pointer; }
-    .site-header__toggle span { display: block; width: 25px; height: 2px; background: white; margin: 5px 0; }
-
-    /* --- MOBILE NAV --- */
-    .mobile-nav {
-      position: fixed; inset: 0; background: var(--bg-dark); z-index: 99;
-      padding: 2rem; transform: translateX(100%); transition: 0.4s var(--ease);
-      display: flex; flex-direction: column;
-    }
-    .mobile-nav.active { transform: translateX(0); }
-    .mobile-nav__item {
-      display: flex; align-items: center; gap: 1rem; padding: 1rem 0;
-      border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 1.25rem; font-weight: 600;
-    }
-    .mobile-nav__item svg { color: var(--gold); }
-    .mobile-nav__whatsapp-btn {
-      display: flex; align-items: center; justify-content: center; gap: 0.5rem;
-      background: #25D366; color: white; padding: 1rem; border-radius: 50px;
-      margin-top: 2rem; font-weight: bold;
-    }
-
-    /* --- HERO --- */
-    .hero {
-      position: relative; min-height: 100vh; display: flex; align-items: center;
-      padding-top: 80px; overflow: hidden;
-    }
-    .hero__canvas { position: absolute; inset: 0; z-index: -1; }
-    .hero__gradient {
-      position: absolute; bottom: 0; left: 0; width: 100%; height: 50%;
-      background: linear-gradient(to top, var(--bg-dark), transparent); z-index: -1;
-    }
-    .hero-top-marquee {
-      position: absolute; top: 80px; left: 0; width: 100%; overflow: hidden;
-      padding: 10px 0; background: rgba(212, 175, 55, 0.1);
-      border-top: 1px solid rgba(212, 175, 55, 0.2); border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-      white-space: nowrap; z-index: 10;
-    }
-    .hero-top-marquee__track {
-      display: inline-flex; align-items: center; gap: 2rem;
-      animation: marquee 20s linear infinite;
-    }
-    .hero-top-marquee__dot { color: var(--gold-dim); }
-    .hero-top-marquee span {
-      display: flex; align-items: center; gap: 0.5rem; color: var(--text-muted);
-      font-size: 0.9rem; text-transform: uppercase; font-weight: 600;
-    }
-    @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-
-    .hero__content { text-align: center; position: relative; z-index: 2; }
-    .hero__eyebrow { color: var(--gold); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; }
-    /* H1 FIX: Making the animated container a real H1 */
-    .hero__title { font-size: 3.5rem; font-weight: 700; line-height: 1.1; margin: 1.5rem 0; }
-    .hero__title-word { display: inline-block; opacity: 0; transform: translateY(20px); animation: wordFade 0.8s forwards; }
-    @keyframes wordFade { to { opacity: 1; transform: translateY(0); } }
-    
-    .hero__stats {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.5rem; margin-top: 3rem;
-    }
-    .hero-stat {
-      display: flex; align-items: flex-start; gap: 1rem; text-align: left;
-      background: rgba(255,255,255,0.02); padding: 1rem; border-radius: 8px;
-    }
-    .hero-stat__icon { color: var(--gold); flex-shrink: 0; }
-    .hero-stat__title { display: block; color: var(--white); font-weight: 600; margin-bottom: 0.2rem; }
-    .hero-stat__text { font-size: 0.85rem; }
-
-    /* --- SHOWCASE SLIDER --- */
-    .showcase-slider-wrapper { position: relative; margin-bottom: 4rem; }
-    .showcase-slider {
-      display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 1rem;
-      padding-bottom: 2rem; -ms-overflow-style: none; scrollbar-width: none;
-    }
-    .showcase-slider::-webkit-scrollbar { display: none; }
-    .showcase-slider__slide {
-      flex: 0 0 80%; scroll-snap-align: center; border-radius: 16px; overflow: hidden;
-    }
-    .showcase-slider__slide img { width: 100%; height: auto; object-fit: cover; }
-    @media(min-width: 768px) { .showcase-slider__slide { flex: 0 0 400px; } }
-
-    /* --- GRID CARDS (About, Services, Why) --- */
-    .about-grid, .services-grid, .why-grid {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-    }
-    .about-card, .service-card, .why-card { height: 100%; transition: 0.3s; position: relative; overflow: hidden; }
-    .about-card:hover, .service-card:hover, .why-card:hover { transform: translateY(-5px); border-color: var(--gold); }
-    .service-card__icon {
-      width: 50px; height: 50px; background: rgba(212,175,55,0.1); color: var(--gold);
-      border-radius: 12px; display: flex; align-items: center; justify-content: center;
-      margin-bottom: 1.5rem;
-    }
-    .service-card__link {
-      display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1.5rem;
-      color: var(--gold); font-weight: 600;
-    }
-
-    /* --- WORKFLOW CIRCLE --- */
-    .workflow-circle-container { position: relative; width: 300px; height: 300px; margin: 0 auto; }
-    .workflow-circle {
-      width: 100%; height: 100%; border: 1px dashed rgba(255,255,255,0.2); border-radius: 50%;
-      position: relative; animation: rotate 20s linear infinite;
-    }
-    @keyframes rotate { 100% { transform: rotate(360deg); } }
-    .workflow-node {
-      position: absolute; top: 50%; left: 50%; width: 60px; height: 60px;
-      background: var(--bg-dark); border: 1px solid var(--gold); border-radius: 50%;
-      display: flex; align-items: center; justify-content: center; color: var(--gold);
-      transform-origin: -150px 0; /* Radius is 150px (half of 300px) - half node */
-    }
-    /* Positioning nodes around the circle */
-    .workflow-node:nth-child(1) { transform: rotate(0deg) translate(-150px) rotate(0deg); }
-    .workflow-node:nth-child(2) { transform: rotate(60deg) translate(-150px) rotate(-60deg); }
-    .workflow-node:nth-child(3) { transform: rotate(120deg) translate(-150px) rotate(-120deg); }
-    .workflow-node:nth-child(4) { transform: rotate(180deg) translate(-150px) rotate(-180deg); }
-    .workflow-node:nth-child(5) { transform: rotate(240deg) translate(-150px) rotate(-240deg); }
-    .workflow-node:nth-child(6) { transform: rotate(300deg) translate(-150px) rotate(-300deg); }
-    
-    .workflow-center-logo {
-      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-      text-align: center; pointer-events: none;
-    }
-
-    /* --- PORTFOLIO --- */
-    .portfolio-showcase { display: grid; gap: 2rem; }
-    @media(min-width: 900px) {
-      .portfolio-showcase { grid-template-columns: 1.2fr 1fr; }
-    }
-    .portfolio-showcase__img { width: 100%; border-radius: 12px; aspect-ratio: 16/9; object-fit: cover; }
-
-    /* --- TESTIMONIALS --- */
-    .testimonials-marquee { overflow: hidden; position: relative; }
-    .testimonials-track {
-      display: flex; gap: 2rem; width: max-content; animation: scrollLeft 40s linear infinite;
-    }
-    @keyframes scrollLeft { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-    .testimonial-card { width: 350px; flex-shrink: 0; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); padding: 2rem; border-radius: 12px; }
-    .testimonial-card__author { display: flex; align-items: center; gap: 1rem; margin-top: 1.5rem; }
-    .testimonial-card__avatar { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }
-
-    /* --- INSIGHTS (BLOG) --- */
-    .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-    .blog-card { background: rgba(255,255,255,0.02); border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05); transition: 0.3s; }
-    .blog-card:hover { border-color: var(--gold); }
-    .blog-card__img { width: 100%; height: 200px; object-fit: cover; }
-    .blog-card__content { padding: 1.5rem; }
-    .blog-card__meta { font-size: 0.8rem; color: var(--gold); margin-bottom: 0.5rem; }
-
-    /* --- FAQ --- */
-    .faq-grid { display: grid; gap: 1rem; max-width: 800px; margin: 0 auto; }
-    .faq-item { border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1rem; }
-    .faq-question { font-weight: 600; font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--white); cursor: pointer; }
-    .faq-answer { color: var(--text-muted); font-size: 0.95rem; }
-
-    /* --- CONTACT --- */
-    .contact-grid { display: grid; gap: 3rem; }
-    @media(min-width: 900px) { .contact-grid { grid-template-columns: 1fr 1.5fr; } }
-    .contact-social-3d { display: flex; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap; }
-    .contact-social-3d__link { display: block; width: 56px; height: 56px; border-radius: 12px; transition: 0.3s; }
-    .contact-social-3d__link:hover { transform: translateY(-5px); }
-    .contact-map__iframe { width: 100%; height: 250px; border: 0; border-radius: 8px; margin-top: 1rem; filter: grayscale(100%); transition: 0.3s; }
-    .contact-map__iframe:hover { filter: grayscale(0%); }
-    
-    .form-row { margin-bottom: 1.5rem; }
-    .form-row label { display: block; margin-bottom: 0.5rem; font-weight: 500; color: var(--text-main); }
-    .form-row input, .form-row select, .form-row textarea {
-      width: 100%; padding: 12px 16px; background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white;
-    }
-    .form-row input:focus, .form-row textarea:focus { border-color: var(--gold); }
-
-    /* --- FOOTER --- */
-    .site-footer { background: #05080f; padding: 60px 0 20px; border-top: 1px solid rgba(255,255,255,0.05); }
-    .site-footer__grid { display: grid; gap: 3rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-bottom: 3rem; }
-    .site-footer__links li { margin-bottom: 0.8rem; }
-    .site-footer__links a { color: var(--text-muted); font-size: 0.95rem; }
-    .site-footer__links a:hover { color: var(--gold); }
-    .site-footer__social { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
-    .site-footer__social a { width: 40px; height: 40px; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; border-radius: 50%; }
-    .site-footer__social a:hover { background: var(--gold); color: var(--bg-dark); }
-    .footer-logo-large { height: 50px; margin-bottom: 1rem; filter: brightness(0) invert(1); }
-
-    /* --- COOKIES --- */
-    .cookie-banner {
-      position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(200%);
-      width: 90%; max-width: 600px; background: #1e293b; border: 1px solid rgba(255,255,255,0.1);
-      padding: 1.5rem; border-radius: 12px; z-index: 9999; box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-      display: flex; flex-direction: column; gap: 1rem; transition: 0.5s var(--ease);
-    }
-    .cookie-banner.active { transform: translateX(-50%) translateY(0); }
-    .cookie-actions { display: flex; gap: 1rem; justify-content: flex-end; }
-    
-    /* --- FLOAT --- */
-    .whatsapp-float {
-      position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px;
-      background: #25D366; color: white; border-radius: 50%; display: flex;
-      align-items: center; justify-content: center; z-index: 98; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-    }
-    .back-to-top {
-      position: fixed; bottom: 30px; right: 100px; width: 50px; height: 50px;
-      background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); color: white;
-      border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 98;
-      cursor: pointer; transition: 0.3s;
-    }
-    .back-to-top:hover { background: var(--gold); }
-
-    @media(max-width: 768px) {
-      .site-header__actions { display: none; }
-      .site-header__toggle { display: block; }
-      .hero__title { font-size: 2.5rem; }
-      .section__title { font-size: 2rem; }
-      .cookie-banner { width: 95%; bottom: 10px; }
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
   <!-- Loading screen -->
   <div id="page-loader" class="page-loader" aria-hidden="true">
     <div class="page-loader__inner">
-      <!-- Using text placeholder for logo if image fails -->
-      <h2 style="color:var(--gold); margin-bottom:1rem;">VSNEXOS</h2>
+      <div class="page-loader__logo-circle" aria-hidden="true">
+        <img src="assets/Vsnexos-logo-svg.svg" alt="Vsnexos Tech logo" class="page-loader__logo-img" width="140"
+          height="auto" />
+      </div>
       <div class="page-loader__bar" role="progressbar" aria-label="Loading"></div>
     </div>
   </div>
@@ -494,76 +198,162 @@
   <!-- Scroll progress -->
   <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
 
-  <!-- Cookie Consent -->
-  <div class="cookie-banner" id="cookie-banner">
-    <div>
-      <h4 style="color:white; margin-bottom:0.5rem;">We value your privacy</h4>
-      <p style="font-size:0.9rem;">We use cookies to enhance your browsing experience and serve personalized ads. By continuing to visit this site you agree to our use of cookies.</p>
-    </div>
-    <div class="cookie-actions">
-      <button class="btn btn--outline" style="border-color:rgba(255,255,255,0.2); color:white;" onclick="document.getElementById('cookie-banner').classList.remove('active')">Decline</button>
-      <button class="btn btn--primary" onclick="acceptCookies()">Accept</button>
-    </div>
-  </div>
-
   <!-- Header -->
   <header id="site-header" class="site-header">
     <div class="site-header__inner">
       <a href="#hero" class="site-header__brand">
-        <!-- Simple SVG Logo placeholder matching aesthetic -->
-        <svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-           <path d="M10 10h5v20h-5z" fill="#d4af37"/>
-           <path d="M20 10h10l-5 10 5 10h-10l5-10z" fill="#fff"/>
-           <text x="35" y="28" font-family="Outfit" font-weight="bold" font-size="20" fill="#fff">VSNEXOS</text>
-        </svg>
+        <img src="assets/Vsnexos-logo-svg.svg" alt="Vsnexos Tech logo" class="site-header__logo" width="185" height="55"
+          loading="eager" decoding="async" />
       </a>
       <nav class="site-nav" aria-label="Primary">
         <ul class="site-nav__list">
-          <li><a href='#about'>About</a></li>
-          <li><a href='#services'>Services</a></li>
-          <li><a href='#portfolio'>Portfolio</a></li>
-          <li><a href='#insights'>Insights</a></li>
-          <li><a href='#contact'>Contact</a></li>
+          <li><a href='/about'>About</a></li>
+          <li><a href='/services'>Services</a></li>
+          <li><a href='/portfolio'>Portfolio</a></li>
+          <li><a href='/contact'>Contact</a></li>
         </ul>
       </nav>
       <div class="site-header__actions">
-        <a class='btn btn--primary' href='#contact'>Get Started</a>
-        <button type="button" class="site-header__toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <a class='btn btn--primary' href='/contact'>Get Started</a>
+        <button type="button" class="site-header__toggle" id="nav-toggle" aria-expanded="false"
+          aria-controls="mobile-nav" aria-label="Open menu">
           <span></span><span></span><span></span>
         </button>
       </div>
     </div>
+    </div>
   </header>
-
   <div id="mobile-nav" class="mobile-nav" hidden>
+    <!-- Mobile Navigation Content -->
     <div class="mobile-nav__content">
+      <!-- Header Section with Logo and Brand -->
       <div class="mobile-nav__header-section">
-         <h3 style="color:white; margin-bottom:2rem;">Vsnexos Digital Solution</h3>
+        <img src="assets/Vsnexos-logo-svg.svg" alt="Vsnexos Tech logo" class="mobile-nav__logo-img" width="160"
+          height="48" loading="lazy" decoding="async" />
+        <h3 class="mobile-nav__heading">Vsnexos Digital Solution</h3>
       </div>
+
+      <!-- Menu Items -->
       <nav class="mobile-nav__menu">
-        <a href="#hero" class="mobile-nav__item"><span>Home</span></a>
-        <a href="#about" class="mobile-nav__item"><span>About</span></a>
-        <a href="#services" class="mobile-nav__item"><span>Services</span></a>
-        <a href="#portfolio" class="mobile-nav__item"><span>Portfolio</span></a>
-        <a href="#contact" class="mobile-nav__item"><span>Contact</span></a>
+        <a href="#hero" class="mobile-nav__item is-active" data-section="home">
+          <span class="mobile-nav__icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+          </span>
+          <span class="mobile-nav__label">Home</span>
+          <span class="mobile-nav__arrow">→</span>
+        </a>
+
+        <a class='mobile-nav__item' data-section='about' href='/about'>
+          <span class="mobile-nav__icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+          </span>
+          <span class="mobile-nav__label">About</span>
+          <span class="mobile-nav__arrow">→</span>
+        </a>
+
+        <a class='mobile-nav__item' data-section='services' href='/services'>
+          <span class="mobile-nav__icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </span>
+          <span class="mobile-nav__label">Services</span>
+          <span class="mobile-nav__arrow">→</span>
+        </a>
+
+        <a href="#why" class="mobile-nav__item" data-section="whyus">
+          <span class="mobile-nav__icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+          </span>
+          <span class="mobile-nav__label">Why Us</span>
+          <span class="mobile-nav__arrow">→</span>
+        </a>
+
+        <a href="#process" class="mobile-nav__item" data-section="process">
+          <span class="mobile-nav__icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </span>
+          <span class="mobile-nav__label">Process</span>
+          <span class="mobile-nav__arrow">→</span>
+        </a>
+
+        <a class='mobile-nav__item' data-section='portfolio' href='/portfolio'>
+          <span class="mobile-nav__icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <circle cx="8.5" cy="8.5" r="1.5"></circle>
+              <polyline points="21 15 16 10 5 21"></polyline>
+            </svg>
+          </span>
+          <span class="mobile-nav__label">Portfolio</span>
+          <span class="mobile-nav__arrow">→</span>
+        </a>
+
+
+        <a class='mobile-nav__item' data-section='contact' href='/contact'>
+          <span class="mobile-nav__icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+          </span>
+          <span class="mobile-nav__label">Contact</span>
+          <span class="mobile-nav__arrow">→</span>
+        </a>
       </nav>
+
+      <!-- WhatsApp CTA Button -->
       <div class="mobile-nav__footer">
-        <a href="https://wa.me/919100665935" class="mobile-nav__whatsapp-btn" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+        <a href="https://wa.me/919100665935" class="mobile-nav__whatsapp-btn" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Chat on WhatsApp
+        </a>
       </div>
     </div>
   </div>
-
+  </div>
   <main id="main-content">
     <!-- Hero -->
     <section id="hero" class="hero">
-      <!-- Canvas handled by JS -->
+      <canvas id="hero-canvas" class="hero__canvas" aria-hidden="true"></canvas>
       <div class="hero__gradient" aria-hidden="true"></div>
+      <div class="floating-shapes" aria-hidden="true">
+        <span class="floating-shapes__dot floating-shapes__dot--1"></span>
+        <span class="floating-shapes__dot floating-shapes__dot--2"></span>
+        <span class="floating-shapes__dot floating-shapes__dot--3"></span>
+        <span class="floating-shapes__arc"></span>
+      </div>
 
       <div class="container hero__grid">
         <div class="hero__content" data-aos="fade-up" data-aos-duration="900">
-          
-          <!-- Top Marquee: Only ONE track in HTML to prevent duplicate content SEO penalty. JS will clone it. -->
-          <div class="hero-top-marquee" id="hero-marquee">
+          <!-- Dynamic Top Marquee Ribbon -->
+          <div class="hero-top-marquee">
             <div class="hero-top-marquee__track">
               <span>
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
@@ -591,65 +381,142 @@
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
                 High-Performance Apps
               </span>
+              <span class="hero-top-marquee__dot" aria-hidden="true">•</span>
+              <span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M20.66 7A10 10 0 0 0 14 2.05V10h6.56"/></svg>
+                AI & Automation Solutions
+              </span>
+              <span class="hero-top-marquee__dot" aria-hidden="true">•</span>
+            </div>
+            <!-- Duplicate for infinite flow -->
+            <div class="hero-top-marquee__track" aria-hidden="true">
+              <span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                Premium Web Development
+              </span>
+              <span class="hero-top-marquee__dot" aria-hidden="true">•</span>
+              <span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+                Custom Software Engineering
+              </span>
+              <span class="hero-top-marquee__dot" aria-hidden="true">•</span>
+              <span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                SEO & Digital Marketing Strategy
+              </span>
+              <span class="hero-top-marquee__dot" aria-hidden="true">•</span>
+              <span>"Turning Code into Market Dominance"</span>
+              <span class="hero-top-marquee__dot" aria-hidden="true">•</span>
+              <span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 10h-4V6a2 2 0 0 0-4 0v4H6l6 8 6-8z"/><path d="M4 10h4"/></svg>
+                Full-Stack Cloud Architecture
+              </span>
+              <span class="hero-top-marquee__dot" aria-hidden="true">•</span>
+              <span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                High-Performance Apps
+              </span>
+              <span class="hero-top-marquee__dot" aria-hidden="true">•</span>
+              <span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M20.66 7A10 10 0 0 0 14 2.05V10h6.56"/></svg>
+                AI & Automation Solutions
+              </span>
+              <span class="hero-top-marquee__dot" aria-hidden="true">•</span>
             </div>
           </div>
 
-          <p class="hero__eyebrow">Vsnexos Tech</p>
-          
-          <!-- H1 FIX: Using a real H1 for SEO with the animated words inside -->
+          <p class="hero__eyebrow" style="letter-spacing: 2px; margin-bottom: 1.5rem;">Vsnexos Tech</p>
           <h1 class="hero__title">
-            <div class="hero__title-line">
+            <span
+              style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Vsnexos
+              Tech - Professional Web Development & Software Engineering Company</span>
+            <div class="hero__title-line"
+              style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; row-gap: 0;">
               <span class="hero__title-word" style="animation-delay: 0.1s;">Elite</span>
               <span class="hero__title-word" style="animation-delay: 0.25s;">Web</span>
               <span class="hero__title-word text-gradient" style="animation-delay: 0.4s;">Development</span>
             </div>
-            <div class="hero__title-line">
-              <span class="hero__title-word" style="animation-delay: 0.55s;">&</span>
+            <div class="hero__title-line"
+              style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; row-gap: 0; margin-top: 5px;">
+              <span class="hero__title-word" style="animation-delay: 0.55s;">&amp;</span>
               <span class="hero__title-word" style="animation-delay: 0.7s;">Custom</span>
               <span class="hero__title-word text-gradient" style="animation-delay: 0.85s;">Software</span>
               <span class="hero__title-word text-gradient" style="animation-delay: 1.0s;">Solutions</span>
             </div>
           </h1>
-
-          <p class="hero__subtitle">
-            We architect high-performance, SEO-optimized web applications and deploy market-leading custom software systems engineered specifically to maximize online revenue, scale your operations, and secure enterprise dominance.
-          </p>
-
-          <div class="hero__ctas">
-            <a class='btn btn--primary btn--lg' href='#contact'>
+          <p class="hero__subtitle"
+            style="font-size: 1.15rem; max-width: 800px; margin: 0 auto 1.2rem; line-height: 1.7; padding: 0 10px;">We architect high-performance, SEO-optimized web applications and deploy market-leading custom software systems engineered specifically to maximize online revenue, scale your operations, and secure enterprise dominance.</p>
+          <div class="hero__ctas" style="margin-bottom: 2.5rem;">
+            <a class='btn btn--primary btn--lg btn--mirror' href='/contact'>
               <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
               Get Started
             </a>
-            <a class='btn btn--outline btn--lg' href='#contact'>
+            <a class='btn btn--outline btn--lg btn--mirror' href='/contact'>
               <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
               Contact Us
             </a>
           </div>
-
-          <ul class="hero__stats" role="list">
+          <ul class="hero__stats" role="list" aria-label="Vsnexos Tech key benefits">
             <li class="hero-stat">
-              <div class="hero-stat__icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9" /><path d="M12 3v18" /><path d="M3 12h18" /></svg></div>
+              <div class="hero-stat__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 3v18" />
+                  <path d="M3 12h18" />
+                </svg>
+              </div>
               <div class="hero-stat__body">
                 <strong class="hero-stat__title">Online Delivery</strong>
-                <span class="hero-stat__text">Remote-first with clear timelines.</span>
+                <span class="hero-stat__text">Remote-first delivery with clear timelines.</span>
               </div>
             </li>
             <li class="hero-stat">
-              <div class="hero-stat__icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="12" rx="2" /><path d="M8 10h8" /><path d="M8 14h6" /></svg></div>
+              <div class="hero-stat__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="6" width="18" height="12" rx="2" />
+                  <path d="M8 10h8" />
+                  <path d="M8 14h6" />
+                </svg>
+              </div>
               <div class="hero-stat__body">
                 <strong class="hero-stat__title">Scalable Build</strong>
-                <span class="hero-stat__text">Architecture that grows with you.</span>
+                <span class="hero-stat__text">Architecture that grows with your roadmap.</span>
               </div>
             </li>
             <li class="hero-stat">
-              <div class="hero-stat__icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5" /><path d="M4 19h16" /><path d="M7 14l3-3 3 2 5-6" /></svg></div>
+              <div class="hero-stat__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19V5" />
+                  <path d="M4 19h16" />
+                  <path d="M7 14l3-3 3 2 5-6" />
+                </svg>
+              </div>
               <div class="hero-stat__body">
                 <strong class="hero-stat__title">Results Focus</strong>
-                <span class="hero-stat__text">KPI-led execution & conversion.</span>
+                <span class="hero-stat__text">KPI-led execution: visibility &amp; conversion.</span>
+              </div>
+            </li>
+            <li class="hero-stat">
+              <div class="hero-stat__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 7h18"></path>
+                  <path d="M3 12h18"></path>
+                  <path d="M3 17h12"></path>
+                </svg>
+              </div>
+              <div class="hero-stat__body">
+                <strong class="hero-stat__title">Budget-Friendly</strong>
+                <span class="hero-stat__text">Flexible models for SMEs &amp; startups.</span>
               </div>
             </li>
           </ul>
         </div>
+
+
       </div>
     </section>
 
@@ -659,51 +526,83 @@
         <header class="section__header" data-aos="fade-up">
           <span class="section__label">About Us</span>
           <h2 class="section__title">Empowering Growth through Technology</h2>
-          <p class="section__lead">Vsnexos Tech is a premier software engineering and web development agency. We deliver corporate-grade digital execution with strategic clarity and long-term value.</p>
+          <p class="section__lead">Vsnexos Tech is a premier software engineering and web development agency. We deliver
+            corporate-grade digital execution with strategic clarity, dependable delivery, and long-term value. We
+            partner with ambitious organizations looking to dominate their market through specialized technology.</p>
         </header>
 
         <!-- Showcase Slider -->
-        <div class="showcase-slider-wrapper" data-aos="zoom-in">
+        <div class="showcase-slider-wrapper" data-aos="zoom-in" data-aos-delay="100">
           <div class="showcase-slider">
-            <div class="showcase-slider__slide">
-              <img src="https://picsum.photos/seed/tech1/800/450" alt="Futuristic web development interfaces" loading="lazy" />
+            <div class="showcase-slider__track">
+              <!-- Removed the square portrait image to maintain strict 16:9 landscape aspect uniformly -->
+              <div class="showcase-slider__slide">
+                <img src="assets/slider_1.png" alt="Futuristic web development interfaces" loading="lazy" />
+              </div>
+              <div class="showcase-slider__slide">
+                <img src="assets/slider_2.png" alt="Cloud computing network rendering" loading="lazy" />
+              </div>
+              <div class="showcase-slider__slide">
+                <img src="assets/slider_3.png" alt="Futuristic digital workspace laptop code" loading="lazy" />
+              </div>
+              <div class="showcase-slider__slide">
+                <img src="assets/slider_4.png" alt="Business growth and financial charts cityscape" loading="lazy" />
+              </div>
+              <div class="showcase-slider__slide">
+                <img src="assets/slider_5.png" alt="Digital storefront representing importance of websites to a business" loading="lazy" />
+              </div>
+              <div class="showcase-slider__slide">
+                <img src="assets/slider_6.png" alt="Advanced SEO and digital marketing command center" loading="lazy" />
+              </div>
             </div>
-            <div class="showcase-slider__slide">
-              <img src="https://picsum.photos/seed/tech2/800/450" alt="Cloud computing network rendering" loading="lazy" />
-            </div>
-            <div class="showcase-slider__slide">
-              <img src="https://picsum.photos/seed/tech3/800/450" alt="Digital workspace laptop code" loading="lazy" />
-            </div>
-            <div class="showcase-slider__slide">
-              <img src="https://picsum.photos/seed/tech4/800/450" alt="Business growth and financial charts" loading="lazy" />
+            <button class="showcase-slider__btn showcase-slider__btn--prev" aria-label="Previous image">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6" /></svg>
+            </button>
+            <button class="showcase-slider__btn showcase-slider__btn--next" aria-label="Next image">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6" /></svg>
+            </button>
+            <div class="showcase-slider__dots">
+              <button class="showcase-slider__dot active" aria-label="Slide 1"></button>
+              <button class="showcase-slider__dot" aria-label="Slide 2"></button>
+              <button class="showcase-slider__dot" aria-label="Slide 3"></button>
+              <button class="showcase-slider__dot" aria-label="Slide 4"></button>
+              <button class="showcase-slider__dot" aria-label="Slide 5"></button>
+              <button class="showcase-slider__dot" aria-label="Slide 6"></button>
             </div>
           </div>
         </div>
-
         <div class="about-grid">
-          <article class="glass-card about-card" data-aos="fade-up">
+          <article class="glass-card about-card" data-aos="fade-up" data-aos-delay="50">
             <h3 class="about-card__title">Who We Are</h3>
-            <p>A dedicated team of full-stack developers, UI/UX designers, and digital strategists committed to architecting scalable, secure, and high-performance digital systems tailored precisely to your unique business needs. Based in Hyderabad, we serve clients globally with a remote-first, agile approach.</p>
+            <p>A dedicated team of full-stack developers, designers, and digital strategists committed to architecting
+              scalable, secure, and high-performance digital systems tailored precisely to your unique business needs.
+            </p>
           </article>
-          <article class="glass-card about-card" data-aos="fade-up">
+          <article class="glass-card about-card" data-aos="fade-up" data-aos-delay="100">
             <h3 class="about-card__title">Our Mission</h3>
-            <p>To deliver robust enterprise-grade digital infrastructures that are reliable, performant, and actively drive operational efficiency, user engagement, and measurable revenue growth for our partners. We believe in code that pays for itself.</p>
+            <p>To deliver robust enterprise-grade digital infrastructures that are reliable, performant, and actively
+              drive operational efficiency, user engagement, and measurable revenue growth for our partners.</p>
           </article>
-          <article class="glass-card about-card" data-aos="fade-up">
+          <article class="glass-card about-card" data-aos="fade-up" data-aos-delay="150">
             <h3 class="about-card__title">Our Vision</h3>
-            <p>To become the global standard for engineering excellence by helping businesses scale dynamically through intelligent software architectures, automated workflows, and commanding web presence. We envision a world where technology is the biggest asset for every SME.</p>
+            <p>To become the global standard for engineering excellence by helping businesses scale dynamically through
+              intelligent software architectures, automated workflows, and commanding web presence.</p>
           </article>
-          <article class="glass-card about-card" data-aos="fade-up">
+          <article class="glass-card about-card" data-aos="fade-up" data-aos-delay="200">
             <h3 class="about-card__title">Proven Expertise</h3>
-            <p>With deep technical experience in end-to-end software development and data-driven optimization, we craft intricate platforms that merge harmoniously with existing corporate environments. From legacy system migration to modern cloud-native apps, we do it all.</p>
+            <p>With years of deep technical experience in end-to-end software development and data-driven optimization,
+              we craft intricate platforms that merge harmoniously with existing corporate environments.</p>
           </article>
-          <article class="glass-card about-card" data-aos="fade-up">
+          <article class="glass-card about-card" data-aos="fade-up" data-aos-delay="250">
             <h3 class="about-card__title">Modern Tech Stack</h3>
-            <p>We leverage cutting-edge technologies—from React, Next.js, and Vue.js on the frontend to Node.js, Python, and Go on the backend. Our infrastructure relies on AWS and DigitalOcean for maximum uptime and scalability, ensuring your system outpaces competitors.</p>
+            <p>We leverage cutting-edge technologies—from React and Next.js to highly scalable cloud architectures and
+              robust database management—ensuring your system outpaces competitors.</p>
           </article>
-          <article class="glass-card about-card" data-aos="fade-up">
+          <article class="glass-card about-card" data-aos="fade-up" data-aos-delay="300">
             <h3 class="about-card__title">Client-Centric Approach</h3>
-            <p>Your success establishes our benchmark. We stand by complete transparency, agile development methodologies, and relentless iteration to continually align our deliverables with your business goals. We don't just build websites; we build business relationships.</p>
+            <p>Your success establishes our benchmark. We stand by complete transparency, agile development
+              methodologies, and relentless iteration to continually align our deliverables with your business goals.
+            </p>
           </article>
         </div>
       </div>
@@ -715,73 +614,106 @@
         <header class="section__header" data-aos="fade-up">
           <span class="section__label">Services</span>
           <h2 class="section__title">Solutions That Scale With Your Business</h2>
-          <p class="section__lead">Comprehensive service lines aligned to visibility, conversion, and sustainable digital performance.</p>
+          <p class="section__lead">Comprehensive service lines aligned to visibility, conversion, and sustainable
+            digital performance.</p>
         </header>
         <div class="services-grid">
-          <article class="service-card glass-card" data-aos="fade-up">
+          <article class="service-card" data-aos="fade-up" data-aos-delay="0">
             <h3 class="service-card__title">Website Development</h3>
             <div class="service-card__visual">
-              <div class="service-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 12h16M4 18h7" /><path d="M14 18l3 3 3-3" /><path d="M17 15v6" /></svg>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 6h16M4 12h16M4 18h7" />
+                  <path d="M14 18l3 3 3-3" />
+                  <path d="M17 15v6" />
+                </svg>
               </div>
             </div>
-            <p class="service-card__text">We build custom, responsive websites using Next.js and React, engineered for speed, security, and a professional brand experience. Our code is clean, semantic, and optimized for Core Web Vitals.</p>
-            <a class='service-card__link' href='#contact'>Discuss Project <span class="service-card__arrow">→</span></a>
+            <p class="service-card__text">Custom, responsive websites engineered for speed, security, and a professional
+              brand experience.</p>
+            <a class='service-card__link' href='/contact'>Discuss Project <span aria-hidden="true"
+                class="service-card__arrow">→</span></a>
           </article>
 
-          <article class="service-card glass-card" data-aos="fade-up">
+          <article class="service-card" data-aos="fade-up" data-aos-delay="100">
             <h3 class="service-card__title">Landing Page Design</h3>
             <div class="service-card__visual">
-              <div class="service-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18M9 21V9" /></svg>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M3 9h18M9 21V9" />
+                </svg>
               </div>
             </div>
-            <p class="service-card__text">High-converting landing experiences designed with A/B testing principles. We focus on clear hierarchy, trust signals, and focused calls to action to maximize your PPC and campaign ROI.</p>
-            <a class='service-card__link' href='#contact'>Discuss Project <span class="service-card__arrow">→</span></a>
+            <p class="service-card__text">High-converting landing experiences with clear hierarchy, trust signals, and
+              focused calls to action.</p>
+            <a class='service-card__link' href='/contact'>Discuss Project <span aria-hidden="true"
+                class="service-card__arrow">→</span></a>
           </article>
 
-          <article class="service-card glass-card" data-aos="fade-up">
+          <article class="service-card" data-aos="fade-up" data-aos-delay="200">
             <h3 class="service-card__title">SEO Optimization</h3>
             <div class="service-card__visual">
-              <div class="service-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" /><path d="M11 8v6l4 2" /></svg>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="M21 21l-4.35-4.35" />
+                  <path d="M11 8v6l4 2" />
+                </svg>
               </div>
             </div>
-            <p class="service-card__text">Technical and on-page SEO is not an afterthought. We implement structured data, optimize crawlability, and research high-intent keywords to improve your organic rankings sustainably.</p>
-            <a class='service-card__link' href='#contact'>Discuss Project <span class="service-card__arrow">→</span></a>
+            <p class="service-card__text">Technical and on-page SEO to improve rankings, crawlability, and sustainable
+              organic visibility.</p>
+            <a class='service-card__link' href='/contact'>Discuss Project <span aria-hidden="true"
+                class="service-card__arrow">→</span></a>
           </article>
 
-          <article class="service-card glass-card" data-aos="fade-up">
+          <article class="service-card" data-aos="fade-up" data-aos-delay="400">
             <h3 class="service-card__title">Software Development</h3>
             <div class="service-card__visual">
-              <div class="service-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" /></svg>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
               </div>
             </div>
-            <p class="service-card__text">We build robust, scalable desktop and cloud applications using Python and Node.js. From CRM tools to inventory management systems, we streamline your business operations and workflows.</p>
-            <a class='service-card__link' href='#contact'>Discuss Project <span class="service-card__arrow">→</span></a>
+            <p class="service-card__text">We build robust, scalable desktop and cloud applications tailored to
+              streamline your business operations and workflows.</p>
+            <a class='service-card__link' href='/contact'>Discuss Project <span aria-hidden="true"
+                class="service-card__arrow">→</span></a>
           </article>
 
-          <article class="service-card glass-card" data-aos="fade-up">
+          <article class="service-card" data-aos="fade-up" data-aos-delay="500">
             <h3 class="service-card__title">Digital Marketing</h3>
             <div class="service-card__visual">
-              <div class="service-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20V10M18 14l-6 6-6-6" /><path d="M6 4h12v6H6z" /></svg>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 20V10M18 14l-6 6-6-6" />
+                  <path d="M6 4h12v6H6z" />
+                </svg>
               </div>
             </div>
-            <p class="service-card__text">Data-driven campaigns and messaging structured to generate qualified leads and measurable pipeline impact. We manage Google Ads, Facebook Ads, and content strategies to grow your audience.</p>
-            <a class='service-card__link' href='#contact'>Discuss Project <span class="service-card__arrow">→</span></a>
+            <p class="service-card__text">Campaigns and messaging structured to generate qualified leads and measurable
+              pipeline impact.</p>
+            <a class='service-card__link' href='/contact'>Discuss Project <span aria-hidden="true"
+                class="service-card__arrow">→</span></a>
           </article>
 
-          <article class="service-card glass-card" data-aos="fade-up">
+          <article class="service-card" data-aos="fade-up" data-aos-delay="600">
             <h3 class="service-card__title">AI-Powered Automation</h3>
             <div class="service-card__visual">
-              <div class="service-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1010 10H12V2z" /><path d="M12 12L2.5 16.5" /><path d="M12 12l9.5-4.5" /></svg>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 2a10 10 0 1010 10H12V2z" />
+                  <path d="M12 12L2.5 16.5" />
+                  <path d="M12 12l9.5-4.5" />
+                </svg>
               </div>
             </div>
-            <p class="service-card__text">Integrate intelligent AI solutions like ChatGPT-powered customer support bots and automated data entry scripts to enhance customer support, reduce manual labor, and scale operations fast.</p>
-            <a class='service-card__link' href='#contact'>Discuss Project <span class="service-card__arrow">→</span></a>
+            <p class="service-card__text">Integrate intelligent AI solutions to automate operations, enhance customer
+              support, and scale fast.</p>
+            <a class='service-card__link' href='/contact'>Discuss Project <span aria-hidden="true"
+                class="service-card__arrow">→</span></a>
           </article>
         </div>
       </div>
@@ -795,36 +727,86 @@
           <h2 class="section__title">Engineered for Reliability, Built for Results</h2>
         </header>
 
+        <div class="why-content-lead glass-card" data-aos="fade-up" style="margin-bottom: 1.5rem;">
+          <h3
+            style="color: var(--gold-bright); margin-bottom: 1rem; font-family: var(--font-display); font-size: 1.6rem;">
+            Why Your Business Needs a Professional Online Presence</h3>
+          <p style="margin-bottom: 1rem;">In today's digital-first economy, a generic website isn't just
+            ineffective—it's a liability. Your online presence serves as the central hub of your brand credibility, lead
+            generation, and customer acquisition. A professionally engineered web application operates 24/7, providing
+            prospective clients immediate access to your services and setting you apart from competitors.</p>
+          <p>At Vsnexos Tech, we transform your business from merely surviving online to asserting absolute digital
+            authority. We construct optimized platforms that not only capture attention but maximize search visibility
+            and seamlessly convert high-intent traffic into sustained revenue.</p>
+        </div>
+
         <div class="why-grid">
-          <div class="why-card glass-card" data-aos="zoom-in">
-            <div class="why-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg></div>
+          <div class="why-card glass-card" data-aos="zoom-in" data-aos-delay="0">
+            <div class="why-card__icon why-card__icon--pulse" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+            </div>
             <h3 class="why-card__title">Lightning-Fast Performance</h3>
-            <p>We optimize assets, implement modern lazy-loading strategies, and use intelligent caching (CDN) that ensure swift load times across all devices, boosting your SEO rankings.</p>
+            <p>Optimized assets, modern stacks, and intelligent caching that ensure swift load times across all devices.
+            </p>
           </div>
-          <div class="why-card glass-card" data-aos="zoom-in">
-            <div class="why-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18" /><path d="M7 16l4-4 4 4 6-6" /></svg></div>
+          <div class="why-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 3v18h18" />
+                <path d="M7 16l4-4 4 4 6-6" />
+              </svg>
+            </div>
             <h3 class="why-card__title">SEO-Optimized Foundations</h3>
-            <p>We bake semantic markup, comprehensive keyword strategies, and technical excellence (Schema, Meta tags) into the code so search engines prioritize and rank your site from day one.</p>
+            <p>Semantic markup, comprehensive keyword strategies, and technical excellence that search engines
+              prioritize and rank.</p>
           </div>
-          <div class="why-card glass-card" data-aos="zoom-in">
-            <div class="why-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3" /><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83" /></svg></div>
+          <div class="why-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="3" />
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4" />
+              </svg>
+            </div>
             <h3 class="why-card__title">Modern UI/UX Design</h3>
-            <p>Bespoke visual systems, intuitive navigation, and precise interaction patterns that reinforce brand credibility. We design for conversion, not just aesthetics.</p>
+            <p>Bespoke visual systems, intuitive navigation, and precise interaction patterns that reinforce brand
+              credibility.</p>
           </div>
-          <div class="why-card glass-card" data-aos="zoom-in">
-            <div class="why-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83" /><circle cx="12" cy="12" r="8" /></svg></div>
+          <div class="why-card glass-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83" />
+                <circle cx="12" cy="12" r="8" />
+              </svg>
+            </div>
             <h3 class="why-card__title">Growth-Focused Strategy</h3>
-            <p>Every feature and integration is strictly tied to tangible outcomes: quality leads, high visibility, and digital advantage. We act as partners, not just vendors.</p>
+            <p>Every feature and integration is strictly tied to tangible outcomes: quality leads, high visibility, and
+              digital advantage.</p>
           </div>
-          <div class="why-card glass-card" data-aos="zoom-in">
-            <div class="why-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="8" rx="2" ry="2" /><rect x="2" y="14" width="20" height="8" rx="2" ry="2" /></svg></div>
+          <div class="why-card glass-card" data-aos="zoom-in" data-aos-delay="400">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+                <line x1="6" y1="6" x2="6.01" y2="6" />
+                <line x1="6" y1="18" x2="6.01" y2="18" />
+              </svg>
+            </div>
             <h3 class="why-card__title">Custom Software Architecture</h3>
-            <p>We build tailored back-office tools and scalable web applications perfectly molded to your business workflow, utilizing microservices or monolith architecture based on your scale.</p>
+            <p>We build tailored back-office tools and scalable web applications perfectly molded to your business
+              workflow.</p>
           </div>
-          <div class="why-card glass-card" data-aos="zoom-in">
-            <div class="why-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0110 0v4" /></svg></div>
+          <div class="why-card glass-card" data-aos="zoom-in" data-aos-delay="500">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                <path d="M7 11V7a5 5 0 0110 0v4" />
+              </svg>
+            </div>
             <h3 class="why-card__title">Enterprise-Grade Security</h3>
-            <p>Rigorous security protocols, encrypted connections (HTTPS), SQL injection prevention, and robust compliance measures ensuring maximum data protection for you and your customers.</p>
+            <p>Rigorous security protocols, encrypted connections, and robust compliance measures ensuring maximum data
+              protection.</p>
           </div>
         </div>
       </div>
@@ -832,42 +814,127 @@
 
     <!-- How We Work -->
     <section id="process" class="section section--how">
-      <div class="container">
-        <header class="section__header" data-aos="fade-up">
+      <canvas class="particle-canvas" aria-hidden="true"></canvas>
+      <div class="container" style="position: relative; z-index: 2;">
+        <header class="section__header how-header" data-aos="fade-up">
           <span class="section__label">Workflow</span>
           <h2 class="section__title">How We Work</h2>
-          <p class="section__lead">Our structured process ensures quality, performance, and results for every project.</p>
+          <p class="section__lead">
+            Our structured process ensures quality, performance, and results for every project.
+          </p>
         </header>
 
-        <div class="workflow-layout-grid" style="display:flex; flex-direction:column; align-items:center;">
-          <div class="workflow-circle-container" id="workflow-circle" data-aos="fade-up">
+        <div class="workflow-layout-grid">
+          <div class="workflow-circle-container" id="workflow-circle" data-aos="fade-up"
+            aria-label="Vsnexos Tech circular workflow">
+
+            <div class="workflow-center-logo"
+              style="text-align: center; display: flex; flex-direction: column; justify-content: center; line-height: 1.1;">
+              <span style="font-size: 1.6rem; font-weight: 700;">Vsnexos<br><span class="text-gold">Tech</span></span>
+            </div>
+
             <div class="workflow-circle">
-              <article class="workflow-node" data-step="1" data-title="Understand" data-desc="Deep dive into your requirements, market, and goals to craft a tailored digital strategy.">
-                <div class="workflow-node__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.35-4.35"></path></svg></div>
+              <article class="workflow-node" data-step="1" data-title="Understand Needs"
+                data-desc="Deep dive into your requirements, market, and goals to craft a tailored digital strategy.">
+                <div class="workflow-node__icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <path d="M21 21l-4.35-4.35"></path>
+                    <path d="M16 8l2-2"></path>
+                  </svg>
+                </div>
+                <span class="workflow-node__label">Understand</span>
               </article>
-              <article class="workflow-node" data-step="2" data-title="Plan" data-desc="Architecting project roadmaps, UI/UX flows, and technical stacks before a single line of code is written.">
-                <div class="workflow-node__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5"></path></svg></div>
+
+              <article class="workflow-node" data-step="2" data-title="Plan the Work"
+                data-desc="Architecting project roadmaps, UI/UX flows, and technical stacks before a single line of code is written.">
+                <div class="workflow-node__icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M12 7v5"></path>
+                    <path d="M17 12h-5"></path>
+                  </svg>
+                </div>
+                <span class="workflow-node__label">Plan</span>
               </article>
-              <article class="workflow-node" data-step="3" data-title="Build" data-desc="Executing pixel-perfect frontends and robust, scalable backends structured for premium performance.">
-                <div class="workflow-node__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="4" width="16" height="16" rx="3"></rect><path d="M7 14l2-2 3 3 5-7"></path></svg></div>
+
+              <article class="workflow-node" data-step="3" data-title="Design &amp; Build"
+                data-desc="Executing pixel-perfect frontends and robust, scalable backends structured for premium performance.">
+                <div class="workflow-node__icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="4" y="4" width="16" height="16" rx="3"></rect>
+                    <path d="M7 14l2-2 3 3 5-7"></path>
+                  </svg>
+                </div>
+                <span class="workflow-node__label">Build</span>
               </article>
-              <article class="workflow-node" data-step="4" data-title="Test" data-desc="Rigorous QA protocols ensuring cross-device compatibility, security, and zero-defect deployments.">
-                <div class="workflow-node__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2v4"></path><circle cx="12" cy="12" r="4"></circle></svg></div>
+
+              <article class="workflow-node" data-step="4" data-title="Test Everything"
+                data-desc="Rigorous QA protocols ensuring cross-device compatibility, security, and zero-defect deployments.">
+                <div class="workflow-node__icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v4"></path>
+                    <path d="M12 18v4"></path>
+                    <path d="M4.93 4.93l2.83 2.83"></path>
+                    <path d="M16.24 16.24l2.83 2.83"></path>
+                    <path d="M2 12h4"></path>
+                    <path d="M18 12h4"></path>
+                    <circle cx="12" cy="12" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="workflow-node__label">Test</span>
               </article>
-              <article class="workflow-node" data-step="5" data-title="Launch" data-desc="Deploying your project to production environments seamlessly, optimized for SEO and speed.">
-                <div class="workflow-node__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 13l4 4L19 7"></path></svg></div>
+
+              <article class="workflow-node" data-step="5" data-title="Launch Project"
+                data-desc="Deploying your project to production environments seamlessly, optimized for SEO and speed.">
+                <div class="workflow-node__icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 13l4 4L19 7l-4-4L5 13z"></path>
+                    <path d="M12 10l2 2"></path>
+                    <path d="M9 15l-1 4 4-1"></path>
+                  </svg>
+                </div>
+                <span class="workflow-node__label">Launch</span>
               </article>
-              <article class="workflow-node" data-step="6" data-title="Support" data-desc="Providing ongoing maintenance, monitoring, and scaling infrastructure as your digital presence grows.">
-                <div class="workflow-node__icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 19V5"></path><path d="M4 19h16"></path></svg></div>
+
+              <article class="workflow-node" data-step="6" data-title="Support &amp; Scale"
+                data-desc="Providing ongoing maintenance, monitoring, and scaling infrastructure as your digital presence grows.">
+                <div class="workflow-node__icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19V5"></path>
+                    <path d="M4 19h16"></path>
+                    <path d="M8 15l2-3 3 2 4-6"></path>
+                  </svg>
+                </div>
+                <span class="workflow-node__label">Support</span>
               </article>
             </div>
-            <div class="workflow-center-logo">
-              <span style="font-size: 1.6rem; font-weight: 700; color:white;">Vsnexos<br><span style="color:var(--gold);">Tech</span></span>
-            </div>
+
           </div>
-          <div style="text-align:center; margin-top:2rem;" id="workflow-detail-text">
-             <p style="color:var(--gold); font-weight:bold; font-size:1.2rem;" id="workflow-detail-title">Our Process</p>
-             <p id="workflow-detail-desc">Hover over or tap a step to view details.</p>
+
+          <div class="workflow-center-details">
+            <h3 id="workflow-detail-title">Our Process</h3>
+            <p id="workflow-detail-desc">Hover over or tap a step to view details.</p>
+          </div>
+        </div>
+
+        <div class="workflow-mobile-details glass-card" id="workflow-mobile-details" hidden>
+          <h3 id="workflow-mobile-title" class="workflow-mobile-title">Understand Needs</h3>
+          <p id="workflow-mobile-desc" class="workflow-mobile-desc">Deep dive into your requirements, market, and goals
+            to craft a tailored digital strategy.</p>
+        </div>
+
+        <div class="how-cta" data-aos="fade-up" data-aos-delay="150">
+          <div class="how-cta__inner glass-card">
+            <h3 class="how-cta__title">Our process is designed to deliver results, not just websites.</h3>
+            <a class='btn btn--primary btn--lg how-cta__btn' href='/contact'>Start Your Project</a>
           </div>
         </div>
       </div>
@@ -880,164 +947,148 @@
           <span class="section__label">Portfolio</span>
           <h2 class="section__title">Featured Project Delivery</h2>
         </header>
-        
-        <div style="display:grid; gap:3rem;">
-            <!-- Project 1 -->
-            <article class="portfolio-showcase glass-card" data-aos="fade-up">
-              <div class="portfolio-showcase__media">
-                <!-- Changed to a relevant tech/dashboard placeholder as per audit advice -->
-                <img src="https://picsum.photos/seed/dashboard1/960/540" alt="Harsha Marbles project preview" class="portfolio-showcase__img" loading="lazy" />
-              </div>
-              <div class="portfolio-showcase__body">
-                <h3 class="portfolio-showcase__title">Harsha Marbles - Business Website</h3>
-                <p class="portfolio-showcase__desc">We designed and developed a modern, high-performance website for Harsha Naik Marbles, a trusted marble polishing and flooring service provider based in Hyderabad. The website showcases their expertise in marble polishing, cleaning, restoration, and maintenance services, with a clean user interface, responsive design, and optimized performance. This project reflects our focus on delivering professional digital solutions that enhance brand presence and support business growth.</p>
-                <a href="https://firstmarbles.netlify.app" class="btn btn--primary" target="_blank" rel="noopener noreferrer">View Project</a>
-              </div>
-            </article>
-            
-            <!-- Project 2 (Added for depth) -->
-            <article class="portfolio-showcase glass-card" data-aos="fade-up">
-                <div class="portfolio-showcase__media">
-                  <img src="https://picsum.photos/seed/edutech/960/540" alt="EdTech Platform UI" class="portfolio-showcase__img" loading="lazy" />
-                </div>
-                <div class="portfolio-showcase__body">
-                  <h3 class="portfolio-showcase__title">EduPrime - Learning Management System</h3>
-                  <p class="portfolio-showcase__desc">A comprehensive LMS built for a Hyderabad-based coaching center. Features include video streaming integration, real-time progress tracking, and automated quizzes. We utilized React for the frontend and Node.js for the backend, handling over 5,000 concurrent students during exams.</p>
-                  <span class="btn btn--outline" style="cursor:default; opacity:0.7;">Case Study Available</span>
-                </div>
-            </article>
-
-            <!-- Project 3 (Added for depth) -->
-            <article class="portfolio-showcase glass-card" data-aos="fade-up">
-                <div class="portfolio-showcase__media">
-                  <img src="https://picsum.photos/seed/financeapp/960/540" alt="FinTech Dashboard" class="portfolio-showcase__img" loading="lazy" />
-                </div>
-                <div class="portfolio-showcase__body">
-                  <h3 class="portfolio-showcase__title">FinTrack - Personal Finance Dashboard</h3>
-                  <p class="portfolio-showcase__desc">A secure dashboard for tracking investments and expenses. The application connects to banking APIs via secure OAuth protocols, visualizes data using D3.js, and offers PDF export functionality for tax purposes. Built with Next.js for maximum security and SEO.</p>
-                  <span class="btn btn--outline" style="cursor:default; opacity:0.7;">Under NDA</span>
-                </div>
-            </article>
-        </div>
+        <article class="portfolio-showcase glass-card" data-aos="fade-up">
+          <div class="portfolio-showcase__media">
+            <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=960&q=85&auto=format&fit=crop"
+              alt="Harsha Marbles project preview featuring premium marble textures and modern interior applications"
+              class="portfolio-showcase__img" loading="lazy" decoding="async" width="960" height="540" />
+            <div class="portfolio-showcase__overlay"></div>
+          </div>
+          <div class="portfolio-showcase__body">
+            <h3 class="portfolio-showcase__title">Harsha Marbles - Bussiness Website</h3>
+            <p class="portfolio-showcase__desc">We designed and developed a modern, high-performance website for Harsha
+              Naik Marbles, a trusted marble polishing and flooring service provider based in Hyderabad. The website
+              showcases their expertise in marble polishing, cleaning, restoration, and maintenance services, with a
+              clean user interface, responsive design, and optimized performance. This project reflects our focus on
+              delivering professional digital solutions that enhance brand presence and support business growth.</p>
+            <a href="https://firstmarbles.netlify.app" class="btn btn--primary" target="_blank"
+              rel="noopener noreferrer">View Project</a>
+          </div>
+        </article>
       </div>
-    </section>
-
-    <!-- INSIGHTS (BLOG) SECTION ADDED FOR ADSENSE/SEO CONTENT DEPTH -->
-    <section id="insights" class="section section--insights" style="background: rgba(255,255,255,0.01);">
-        <div class="container">
-            <header class="section__header" data-aos="fade-up">
-                <span class="section__label">Insights</span>
-                <h2 class="section__title">Latest Tech Insights</h2>
-                <p class="section__lead">Stay updated with the latest trends in Web Development, SEO, and AI Automation.</p>
-            </header>
-            <div class="blog-grid">
-                <!-- Article 1 -->
-                <article class="blog-card glass-card" data-aos="fade-up">
-                    <img src="https://picsum.photos/seed/seo1/400/200" alt="SEO Strategy" class="blog-card__img">
-                    <div class="blog-card__content">
-                        <div class="blog-card__meta">SEO &bull; Oct 2023</div>
-                        <h3>Why Core Web Vitals Matter for SEO in 2024</h3>
-                        <p>Google's Core Web Vitals are now a major ranking factor. Learn how LCP, FID, and CLS impact your site's performance and how to optimize them.</p>
-                        <a href="#" style="color:var(--gold); font-weight:600; margin-top:1rem; display:inline-block;">Read More →</a>
-                    </div>
-                </article>
-                <!-- Article 2 -->
-                <article class="blog-card glass-card" data-aos="fade-up">
-                    <img src="https://picsum.photos/seed/ai2/400/200" alt="AI Automation" class="blog-card__img">
-                    <div class="blog-card__content">
-                        <div class="blog-card__meta">AI & Automation &bull; Nov 2023</div>
-                        <h3>Automating Customer Support with ChatGPT</h3>
-                        <p>Discover how small businesses can reduce support costs by 40% by integrating intelligent AI chatbots that understand context and provide 24/7 service.</p>
-                        <a href="#" style="color:var(--gold); font-weight:600; margin-top:1rem; display:inline-block;">Read More →</a>
-                    </div>
-                </article>
-                <!-- Article 3 -->
-                <article class="blog-card glass-card" data-aos="fade-up">
-                    <img src="https://picsum.photos/seed/web3/400/200" alt="Web Development" class="blog-card__img">
-                    <div class="blog-card__content">
-                        <div class="blog-card__meta">Development &bull; Dec 2023</div>
-                        <h3>Migrating from Legacy PHP to Next.js</h3>
-                        <p>A technical case study on why and how we moved a large e-commerce platform from a legacy codebase to a modern React framework, resulting in 3x faster load times.</p>
-                        <a href="#" style="color:var(--gold); font-weight:600; margin-top:1rem; display:inline-block;">Read More →</a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ SECTION ADDED FOR SCHEMA/RICH SNIPPETS -->
-    <section id="faq" class="section">
-        <div class="container">
-            <header class="section__header" data-aos="fade-up">
-                <span class="section__label">FAQ</span>
-                <h2 class="section__title">Frequently Asked Questions</h2>
-            </header>
-            <div class="faq-grid" data-aos="fade-up">
-                <div class="faq-item">
-                    <div class="faq-question">What technologies does Vsnexos Tech use for web development?</div>
-                    <div class="faq-answer">We specialize in the MERN stack (MongoDB, Express.js, React, Node.js), Next.js for high-performance SEO-friendly apps, and Python for backend data processing. We also utilize AWS cloud infrastructure for scalable deployment.</div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">Do you offer SEO services alongside web development?</div>
-                    <div class="faq-answer">Yes, SEO is integral to our development process. We build websites with semantic HTML5, optimized Core Web Vitals, and technical schema markup. We also offer post-launch digital marketing campaigns to improve organic visibility.</div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">How long does it take to complete a custom software project?</div>
-                    <div class="faq-answer">Project timelines vary based on complexity. A standard corporate website takes 4-6 weeks, while custom web applications or enterprise software can take 3-6 months. We provide a detailed roadmap during the planning phase.</div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">Do you provide maintenance after launch?</div>
-                    <div class="faq-answer">Absolutely. We offer ongoing support packages that include security updates, server monitoring, and feature enhancements to ensure your digital product remains robust and secure.</div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- Testimonials -->
     <section id="testimonials" class="section section--testimonials">
-      <div class="container">
+      <div class="container" style="overflow: hidden;">
         <header class="section__header" data-aos="fade-up">
           <span class="section__label">Client Success</span>
           <h2 class="section__title">Trusted Worldwide</h2>
+          <p class="section__lead">Hear from absolute leaders whose businesses scaled dynamically with our technology.</p>
         </header>
 
-        <div class="testimonials-marquee-wrapper" data-aos="fade-up">
-          <div class="testimonials-marquee" id="testimonials-marquee">
-            <!-- Only ONE track in HTML. JS will clone for infinite scroll effect -->
+        <div class="testimonials-marquee-wrapper" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonials-marquee">
             <div class="testimonials-track">
               <!-- Item 1 -->
-              <article class="testimonial-card">
-                <div class="testimonial-card__quote"><svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+              <article class="testimonial-card glass-card">
+                <div class="testimonial-card__quote">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
                 <p class="testimonial-card__text">"Absolute transformative architecture. The digital platform Vsnexos delivered completely redefined our web presence. The execution was flawless, scaling our market reach rapidly across the massive US sector."</p>
                 <div class="testimonial-card__author">
                   <div class="testimonial-card__avatar" style="background: rgba(212,175,55,0.15); color: var(--gold); border: 1px solid var(--gold);">YS</div>
                   <div class="testimonial-card__meta">
                     <strong>Yashwanth Sukumar</strong>
-                    <span>CEO, TechSolutions USA</span>
+                    <span>USA</span>
                   </div>
                 </div>
               </article>
               <!-- Item 2 -->
-              <article class="testimonial-card">
-                <div class="testimonial-card__quote"><svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+              <article class="testimonial-card glass-card">
+                <div class="testimonial-card__quote">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
                 <p class="testimonial-card__text">"Their technical execution combined with an SEO-centric approach skyrocketed our hyper-local conversions in Hyderabad. The ROI on their custom software systems is incredible."</p>
                 <div class="testimonial-card__author">
                   <div class="testimonial-card__avatar" style="background: rgba(30,58,138,0.3); color: #fff; border: 1px solid rgba(30,58,138,0.8);">N</div>
                   <div class="testimonial-card__meta">
                     <strong>Nandu</strong>
-                    <span>Director, Hyderabad Real Estate</span>
+                    <span>Hyderabad</span>
                   </div>
                 </div>
               </article>
               <!-- Item 3 -->
-              <article class="testimonial-card">
-                <div class="testimonial-card__quote"><svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+              <article class="testimonial-card glass-card">
+                <div class="testimonial-card__quote">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
                 <p class="testimonial-card__text">"A paradigm shift in how we handle digital services. Vsnexos Tech designed a phenomenal, dynamic interface while engineering a backend system that effortlessly sustains our high traffic."</p>
                 <div class="testimonial-card__author">
                   <div class="testimonial-card__avatar" style="background: rgba(212,175,55,0.15); color: var(--gold); border: 1px solid var(--gold);">S</div>
                   <div class="testimonial-card__meta">
-                    <strong>Sneha Reddy</strong>
-                    <span>Founder, Warangal Logistics</span>
+                    <strong>Sneha</strong>
+                    <span>Warangal</span>
+                  </div>
+                </div>
+              </article>
+              <!-- Item 4 -->
+              <article class="testimonial-card glass-card">
+                <div class="testimonial-card__quote">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testimonial-card__text">"Unmatched precision and dedication! The data-driven logic they embedded into our digital transformation directly influenced our lead volume in Hanumakonda tremendously. Pure expertise!"</p>
+                <div class="testimonial-card__author">
+                  <div class="testimonial-card__avatar" style="background: rgba(30,58,138,0.3); color: #fff; border: 1px solid rgba(30,58,138,0.8);">S</div>
+                  <div class="testimonial-card__meta">
+                    <strong>Santhosh</strong>
+                    <span>Hanumakonda</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            
+            <!-- Duplicate track for infinite seamless scrolling -->
+            <div class="testimonials-track" aria-hidden="true">
+              <article class="testimonial-card glass-card">
+                <div class="testimonial-card__quote">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testimonial-card__text">"Absolute transformative architecture. The digital platform Vsnexos delivered completely redefined our web presence. The execution was flawless, scaling our market reach rapidly across the massive US sector."</p>
+                <div class="testimonial-card__author">
+                  <div class="testimonial-card__avatar" style="background: rgba(212,175,55,0.15); color: var(--gold); border: 1px solid var(--gold);">YS</div>
+                  <div class="testimonial-card__meta">
+                    <strong>Yashwanth Sukumar</strong>
+                    <span>USA</span>
+                  </div>
+                </div>
+              </article>
+              <article class="testimonial-card glass-card">
+                <div class="testimonial-card__quote">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testimonial-card__text">"Their technical execution combined with an SEO-centric approach skyrocketed our hyper-local conversions in Hyderabad. The ROI on their custom software systems is incredible."</p>
+                <div class="testimonial-card__author">
+                  <div class="testimonial-card__avatar" style="background: rgba(30,58,138,0.3); color: #fff; border: 1px solid rgba(30,58,138,0.8);">N</div>
+                  <div class="testimonial-card__meta">
+                    <strong>Nandu</strong>
+                    <span>Hyderabad</span>
+                  </div>
+                </div>
+              </article>
+              <article class="testimonial-card glass-card">
+                <div class="testimonial-card__quote">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testimonial-card__text">"A paradigm shift in how we handle digital services. Vsnexos Tech designed a phenomenal, dynamic interface while engineering a backend system that effortlessly sustains our high traffic."</p>
+                <div class="testimonial-card__author">
+                  <div class="testimonial-card__avatar" style="background: rgba(212,175,55,0.15); color: var(--gold); border: 1px solid var(--gold);">S</div>
+                  <div class="testimonial-card__meta">
+                    <strong>Sneha</strong>
+                    <span>Warangal</span>
+                  </div>
+                </div>
+              </article>
+              <article class="testimonial-card glass-card">
+                <div class="testimonial-card__quote">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold)" opacity="0.3"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                </div>
+                <p class="testimonial-card__text">"Unmatched precision and dedication! The data-driven logic they embedded into our digital transformation directly influenced our lead volume in Hanumakonda tremendously. Pure expertise!"</p>
+                <div class="testimonial-card__author">
+                  <div class="testimonial-card__avatar" style="background: rgba(30,58,138,0.3); color: #fff; border: 1px solid rgba(30,58,138,0.8);">S</div>
+                  <div class="testimonial-card__meta">
+                    <strong>Santhosh</strong>
+                    <span>Hanumakonda</span>
                   </div>
                 </div>
               </article>
@@ -1047,48 +1098,173 @@
       </div>
     </section>
 
+    <!-- Careers -->
+
     <!-- CTA band -->
-    <section class="section section--cta-band">
+    <section class="section section--cta-band" aria-labelledby="cta-heading">
       <div class="container cta-band" data-aos="fade-up">
-        <div class="cta-band__content" style="text-align:center;">
-          <h2 class="cta-band__title">Your Website Should Create Pipeline, Not Just Presence</h2>
-          <p class="cta-band__text">Partner with Vsnexos Tech for strategic digital systems built to convert trust into business outcomes.</p>
+        <div class="cta-band__content">
+          <h2 id="cta-heading" class="cta-band__title">Your Website Should Create Pipeline, Not Just Presence</h2>
+          <p class="cta-band__text">Partner with Vsnexos Tech for strategic digital systems built to convert trust into
+            business outcomes.</p>
         </div>
-        <div style="text-align:center; margin-top:2rem;">
-            <a class='btn btn--primary btn--lg' href='#contact'>Start Your Project Today</a>
-        </div>
+        <a class='btn btn--primary btn--lg cta-band__btn' href='/contact'>Start Your Project Today</a>
       </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="section section--contact">
-      <div class="container">
+      <canvas class="particle-canvas" aria-hidden="true"></canvas>
+      <div class="container" style="position: relative; z-index: 2;">
         <header class="section__header" data-aos="fade-up">
           <span class="section__label">Contact</span>
           <h2 class="section__title">Let&apos;s Discuss Your Growth Priorities</h2>
-          <p class="section__lead">Share your requirements and receive a structured response with practical next steps.</p>
+          <p class="section__lead">Share your requirements and receive a structured response with practical next steps.
+          </p>
         </header>
         <div class="contact-grid">
           <div class="contact-grid__left">
             <div class="contact-info contact-info--social glass-card" data-aos="fade-right">
               <h3 class="contact-info__title">Get In Touch</h3>
               <p class="contact-social__lead">Connect through your preferred channel.</p>
-              <div class="contact-social-3d">
-                <a class="contact-social-3d__link" href="mailto:support@vsnexos.com" aria-label="Email">
-                  <svg viewBox="0 0 64 64" width="56" height="56"><rect x="6" y="10" width="52" height="44" rx="12" fill="#ea4335" /><path d="M8 18 L32 34 L56 18" fill="none" stroke="#fff" stroke-width="2.5" /></svg>
-                </a>
-                <a class="contact-social-3d__link" href="https://www.linkedin.com/in/vsnexos/" target="_blank" aria-label="LinkedIn">
-                  <svg viewBox="0 0 64 64" width="56" height="56"><rect x="6" y="6" width="52" height="52" rx="14" fill="#0a66c2" /><path fill="#fff" d="M22 26h-5v22h5V26zm-2.5-7a2.9 2.9 0 00-2.9 3c0 1.6 1.3 3 2.9 3s2.9-1.4 2.9-3-1.3-3-2.9-3zm24.5 12.2c0-6.4-1.4-10-8.5-10-3.4 0-5.7 1.9-6.7 3.6h-.1V26H28v22h5V38.5c0-2.2.4-4.3 3.1-4.3 2.6 0 2.8 2.5 2.8 4.4V48h5l.1-9.8z" /></svg>
-                </a>
-                <a class="contact-social-3d__link" href="https://www.instagram.com/vsnexos/" target="_blank" aria-label="Instagram">
-                  <svg viewBox="0 0 64 64" width="56" height="56"><rect x="6" y="6" width="52" height="52" rx="16" fill="url(#ig-grad)" /><defs><linearGradient id="ig-grad" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#f09433"/><stop offset="50%" stop-color="#dc2743"/><stop offset="100%" stop-color="#bc1888"/></linearGradient></defs><rect x="18" y="18" width="28" height="28" rx="8" fill="none" stroke="#fff" stroke-width="2.5" /><circle cx="32" cy="32" r="7" fill="none" stroke="#fff" stroke-width="2.5" /></svg>
-                </a>
+              <div class="contact-social-3d" role="list">
+                <div class="contact-social-3d__cell" role="listitem" style="--social-i: 0">
+                  <a class="contact-social-3d__link contact-social-3d__link--email" href="mailto:support@vsnexos.com"
+                    data-tooltip="Contact via Email" aria-label="Contact via Email">
+                    <span class="contact-social-3d__glow" aria-hidden="true"></span>
+                    <span class="contact-social-3d__face">
+                      <svg class="contact-social-3d__svg" viewBox="0 0 64 64" width="56" height="56" aria-hidden="true">
+                        <defs>
+                          <linearGradient id="cs-gmail" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#ff8a8a" />
+                            <stop offset="45%" stop-color="#ea4335" />
+                            <stop offset="100%" stop-color="#b31412" />
+                          </linearGradient>
+                          <linearGradient id="cs-gmail-shine" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#fff" stop-opacity="0.45" />
+                            <stop offset="40%" stop-color="#fff" stop-opacity="0.08" />
+                            <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+                          </linearGradient>
+                          <filter id="cs-gmail-ds" x="-20%" y="-20%" width="140%" height="140%">
+                            <feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity="0.4" />
+                          </filter>
+                        </defs>
+                        <rect x="6" y="10" width="52" height="44" rx="12" fill="url(#cs-gmail)"
+                          filter="url(#cs-gmail-ds)" />
+                        <rect x="6" y="10" width="52" height="22" rx="12" fill="url(#cs-gmail-shine)" />
+                        <path d="M8 18 L32 34 L56 18" fill="none" stroke="#fff" stroke-opacity="0.85" stroke-width="2.5"
+                          stroke-linecap="round" />
+                        <path d="M14 42h36" stroke="#fff" stroke-opacity="0.25" stroke-width="1.5"
+                          stroke-linecap="round" />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+                <div class="contact-social-3d__cell" role="listitem" style="--social-i: 1">
+                  <a class="contact-social-3d__link contact-social-3d__link--linkedin"
+                    href="https://www.linkedin.com/in/vsnexos/" target="_blank"
+                    rel="noopener noreferrer" data-tooltip="LinkedIn Profile" aria-label="Open LinkedIn profile">
+                    <span class="contact-social-3d__glow" aria-hidden="true"></span>
+                    <span class="contact-social-3d__face">
+                      <svg class="contact-social-3d__svg" viewBox="0 0 64 64" width="56" height="56" aria-hidden="true">
+                        <defs>
+                          <linearGradient id="cs-li" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#4da3ff" />
+                            <stop offset="100%" stop-color="#0a66c2" />
+                          </linearGradient>
+                          <linearGradient id="cs-li-shine" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#fff" stop-opacity="0.35" />
+                            <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+                          </linearGradient>
+                          <filter id="cs-li-ds" x="-20%" y="-20%" width="140%" height="140%">
+                            <feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity="0.45" />
+                          </filter>
+                        </defs>
+                        <rect x="6" y="6" width="52" height="52" rx="14" fill="url(#cs-li)" filter="url(#cs-li-ds)" />
+                        <rect x="6" y="6" width="52" height="26" rx="14" fill="url(#cs-li-shine)" />
+                        <path fill="#fff"
+                          d="M22 26h-5v22h5V26zm-2.5-7a2.9 2.9 0 00-2.9 3c0 1.6 1.3 3 2.9 3s2.9-1.4 2.9-3-1.3-3-2.9-3zm24.5 12.2c0-6.4-1.4-10-8.5-10-3.4 0-5.7 1.9-6.7 3.6h-.1V26H28v22h5V38.5c0-2.2.4-4.3 3.1-4.3 2.6 0 2.8 2.5 2.8 4.4V48h5l.1-9.8z" />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+                <div class="contact-social-3d__cell" role="listitem" style="--social-i: 2">
+                  <a class="contact-social-3d__link contact-social-3d__link--instagram"
+                    href="https://www.instagram.com/vsnexos/" target="_blank" rel="noopener noreferrer"
+                    data-tooltip="Instagram" aria-label="Open Instagram profile">
+                    <span class="contact-social-3d__glow" aria-hidden="true"></span>
+                    <span class="contact-social-3d__face">
+                      <svg class="contact-social-3d__svg" viewBox="0 0 64 64" width="56" height="56" aria-hidden="true">
+                        <defs>
+                          <linearGradient id="cs-ig" x1="0%" y1="100%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#f09433" />
+                            <stop offset="35%" stop-color="#e6683c" />
+                            <stop offset="55%" stop-color="#dc2743" />
+                            <stop offset="75%" stop-color="#cc2366" />
+                            <stop offset="100%" stop-color="#bc1888" />
+                          </linearGradient>
+                          <linearGradient id="cs-ig-shine" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#fff" stop-opacity="0.4" />
+                            <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+                          </linearGradient>
+                          <filter id="cs-ig-ds" x="-20%" y="-20%" width="140%" height="140%">
+                            <feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity="0.4" />
+                          </filter>
+                        </defs>
+                        <rect x="6" y="6" width="52" height="52" rx="16" fill="url(#cs-ig)" filter="url(#cs-ig-ds)" />
+                        <rect x="6" y="6" width="52" height="28" rx="16" fill="url(#cs-ig-shine)" />
+                        <rect x="18" y="18" width="28" height="28" rx="8" fill="none" stroke="#fff"
+                          stroke-width="2.5" />
+                        <circle cx="32" cy="32" r="7" fill="none" stroke="#fff" stroke-width="2.5" />
+                        <circle cx="41" cy="23" r="2.2" fill="#fff" />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+                <div class="contact-social-3d__cell" role="listitem" style="--social-i: 3">
+                  <a class="contact-social-3d__link contact-social-3d__link--threads"
+                    href="https://www.threads.com/@file" target="_blank" rel="noopener noreferrer"
+                    data-tooltip="Threads" aria-label="Open Threads profile">
+                    <span class="contact-social-3d__glow" aria-hidden="true"></span>
+                    <span class="contact-social-3d__face">
+                      <svg class="contact-social-3d__svg" viewBox="0 0 64 64" width="56" height="56" aria-hidden="true">
+                        <defs>
+                          <linearGradient id="cs-th" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#3a3a42" />
+                            <stop offset="100%" stop-color="#0a0a0c" />
+                          </linearGradient>
+                          <linearGradient id="cs-th-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#fff" stop-opacity="0.25" />
+                            <stop offset="100%" stop-color="#fff" stop-opacity="0.05" />
+                          </linearGradient>
+                          <filter id="cs-th-ds" x="-20%" y="-20%" width="140%" height="140%">
+                            <feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity="0.5" />
+                          </filter>
+                        </defs>
+                        <rect x="6" y="6" width="52" height="52" rx="14" fill="url(#cs-th)" filter="url(#cs-th-ds)" />
+                        <rect x="6" y="6" width="52" height="26" rx="14" fill="url(#cs-th-ring)" />
+                        <path fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round"
+                          d="M22 42c8-12 22-12 22-22s-6-10-14-6" />
+                        <path fill="none" stroke="#fff" stroke-opacity="0.85" stroke-width="2.2" stroke-linecap="round"
+                          d="M24 24h16M32 24v16" />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
               </div>
+              <p class="contact-info__note">
+                Business inquiries only. Response times are typically within one business day.<br>
+                Let’s collaborate to build impactful digital solutions for your business growth.
+              </p>
             </div>
+            <!-- Google Maps location -->
             <div class="contact-map glass-card" data-aos="fade-up">
               <h3 class="contact-map__title">Location</h3>
-              <iframe class="contact-map__iframe" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=JAYA+APARTMENT,+HUDA+COLONY,+Saroornagar,+Hyderabad,+Telangana+500035&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen=""></iframe>
-              <p class="contact-map__note" style="font-size:0.9rem; margin-top:0.5rem;">Jaya Apartment, HUDA Colony, Hyderabad, Telangana 500035</p>
+              <iframe class="contact-map__iframe" title="Vsnexos Tech location map" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=JAYA+APARTMENT,+HUDA+COLONY,+Saroornagar,+HUDA+Complex,+Kothapet,+Hyderabad,+Telangana+500035,+India&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                allowfullscreen=""></iframe>
+              <p class="contact-map__note">Jaya Apartment, HUDA Colony, Hyderabad, Telangana 500035</p>
             </div>
           </div>
           <form class="contact-form glass-card" id="contact-form" data-aos="fade-left" novalidate>
@@ -1120,10 +1296,11 @@
             </div>
             <div class="form-row">
               <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" required placeholder="Describe your goals, timeline, and scope."></textarea>
+              <textarea id="message" name="message" rows="5" required
+                placeholder="Describe your goals, timeline, and scope."></textarea>
             </div>
             <button type="submit" class="btn btn--primary btn--full">Send message</button>
-            <p class="contact-form__fineprint" id="form-status" role="status"></p>
+            <p class="contact-form__fineprint" id="form-status" role="status" aria-live="polite"></p>
           </form>
         </div>
       </div>
@@ -1135,22 +1312,22 @@
     <div class="container site-footer__grid">
       <div class="site-footer__brand-block">
         <a href="#hero" class="site-footer__brand">
-            <!-- SVG Logo -->
-            <svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 10h5v20h-5z" fill="#d4af37"/>
-                <path d="M20 10h10l-5 10 5 10h-10l5-10z" fill="#fff"/>
-                <text x="35" y="28" font-family="Outfit" font-weight="bold" font-size="20" fill="#fff">VSNEXOS</text>
-              </svg>
+          <img src="assets/Vsnexos-logo-svg.svg" alt="Vsnexos Tech logo" class="footer-logo-large" loading="lazy"
+            decoding="async" />
         </a>
-        <p class="site-footer__tagline">Vsnexos Tech is a forward-thinking digital company delivering AI-powered solutions, modern websites, and automation systems designed for growth.</p>
+        <p class="site-footer__tagline">Vsnexos Tech is a forward-thinking digital company delivering AI-powered
+          solutions, modern websites, and automation systems designed for growth. We help businesses build smarter,
+          scale faster, and stay ahead in a competitive digital landscape.</p>
       </div>
       <div>
         <h4 class="site-footer__heading">Quick links</h4>
         <ul class="site-footer__links">
-          <li><a href='#about'>About Us</a></li>
-          <li><a href='#contact'>Contact Us</a></li>
-          <li><a href='#faq'>FAQ</a></li>
-          <li><a href='#services'>Services</a></li>
+          <li><a href='/about'>About Us</a></li>
+          <li><a href='/contact'>Contact Us</a></li>
+          <li><a href='/privacy'>Privacy Policy</a></li>
+          <li><a href='/terms'>Terms & Conditions</a></li>
+          <li><a href="https://careers.vsnexos.com">Careers</a></li>
+          <li><a href="https://tools.vsnexos.com">Tools</a></li>
           <li><a href="https://wa.me/919100665935" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
         </ul>
       </div>
@@ -1167,11 +1344,36 @@
       <div>
         <h4 class="site-footer__heading">Connect</h4>
         <div class="site-footer__social">
-          <a href="https://www.linkedin.com/in/vsnexos/" target="_blank" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <a href="https://www.linkedin.com/in/vsnexos/" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+          </a>
+          <a href="https://www.threads.com/@file" aria-label="Threads">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M8 8h8" />
+              <path d="M12 8v12" />
+              <path d="M9.5 14.5c.6 1.8 2 3 3.8 3.1 1.9.1 3.4-1 3.7-2.7" />
+            </svg>
           </a>
           <a href="https://www.instagram.com/vsnexos/" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="4" /><circle cx="12" cy="12" r="3.2" /><circle cx="16.4" cy="7.8" r="0.9" /></svg>
+
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="5" y="5" width="14" height="14" rx="4" />
+              <circle cx="12" cy="12" r="3.2" />
+              <circle cx="16.4" cy="7.8" r="0.9" />
+            </svg>
+          </a>
+          <a href="mailto:support@vsnexos.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"
+              aria-hidden="true">
+              <path d="M4 4h16v16H4z" />
+              <path d="M4 8l8 5 8-5" />
+            </svg>
           </a>
         </div>
         <p class="site-footer__copy">© <span id="year"></span> Vsnexos Tech. All rights reserved.</p>
@@ -1180,226 +1382,29 @@
   </footer>
 
   <!-- WhatsApp -->
-  <a href="https://wa.me/919100665935" class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Chat with us" aria-label="Chat on WhatsApp">
+  <a href="https://wa.me/919100665935" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+    title="Chat with us" aria-label="Chat on WhatsApp">
     <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
     </svg>
   </a>
 
   <!-- Back to top -->
   <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" hidden>
-    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"
+      aria-hidden="true">
       <path d="M12 19V5M5 12l7-7 7 7" />
     </svg>
   </button>
 
-  <!-- SCRIPTS -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  
-  <script>
-    // --- 1. CONFIGURATION & INITIALIZATION ---
-    document.addEventListener('DOMContentLoaded', () => {
-        // Init AOS
-        AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
-            once: true,
-            offset: 100
-        });
+  <script src="js/cfg.js"></script>
 
-        // Set Year
-        document.getElementById('year').textContent = new Date().getFullYear();
-
-        // Remove Loader
-        setTimeout(() => {
-            document.getElementById('page-loader').classList.add('loaded');
-        }, 1500);
-
-        // Check Cookie Consent
-        if(!localStorage.getItem('cookieConsent')) {
-            setTimeout(() => {
-                document.getElementById('cookie-banner').classList.add('active');
-            }, 2000);
-        }
-
-        // SEO FIX: CLONE MARQUEE AND TESTIMONIALS AFTER LOAD
-        // This keeps the HTML clean for crawlers (no duplicate content) 
-        // but provides the infinite visual effect for users.
-        const heroMarquee = document.getElementById('hero-marquee');
-        if(heroMarquee) {
-            const track = heroMarquee.querySelector('.hero-top-marquee__track');
-            const clone = track.cloneNode(true);
-            clone.setAttribute('aria-hidden', 'true');
-            heroMarquee.appendChild(clone);
-        }
-
-        const testimonialsMarquee = document.getElementById('testimonials-marquee');
-        if(testimonialsMarquee) {
-            const track = testimonialsMarquee.querySelector('.testimonials-track');
-            const clone = track.cloneNode(true);
-            clone.setAttribute('aria-hidden', 'true');
-            testimonialsMarquee.appendChild(clone);
-        }
-    });
-
-    // --- 2. MOBILE NAVIGATION ---
-    const navToggle = document.getElementById('nav-toggle');
-    const mobileNav = document.getElementById('mobile-nav');
-    
-    navToggle.addEventListener('click', () => {
-        const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
-        navToggle.setAttribute('aria-expanded', !isExpanded);
-        mobileNav.hidden = isExpanded;
-        if(!isExpanded) {
-            mobileNav.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        } else {
-            mobileNav.classList.remove('active');
-            document.body.style.overflow = '';
-        }
-    });
-
-    // Close mobile nav on link click
-    document.querySelectorAll('.mobile-nav__item').forEach(link => {
-        link.addEventListener('click', () => {
-            mobileNav.classList.remove('active');
-            document.body.style.overflow = '';
-            navToggle.setAttribute('aria-expanded', 'false');
-        });
-    });
-
-    // --- 3. SCROLL PROGRESS & BACK TO TOP ---
-    window.addEventListener('scroll', () => {
-        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scrolled = (scrollTop / scrollHeight) * 100;
-        
-        document.getElementById('scroll-progress').style.width = scrolled + '%';
-
-        const backToTop = document.getElementById('back-to-top');
-        if (scrollTop > 500) {
-            backToTop.removeAttribute('hidden');
-        } else {
-            backToTop.setAttribute('hidden', 'true');
-        }
-    });
-
-    document.getElementById('back-to-top').addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
-    // --- 4. COOKIE CONSENT ---
-    function acceptCookies() {
-        localStorage.setItem('cookieConsent', 'true');
-        document.getElementById('cookie-banner').classList.remove('active');
-    }
-
-    // --- 5. WORKFLOW INTERACTION ---
-    const nodes = document.querySelectorAll('.workflow-node');
-    const wTitle = document.getElementById('workflow-detail-title');
-    const wDesc = document.getElementById('workflow-detail-desc');
-
-    nodes.forEach(node => {
-        node.addEventListener('mouseenter', () => {
-            wTitle.textContent = node.getAttribute('data-title');
-            wTitle.style.color = 'var(--gold)';
-            wDesc.textContent = node.getAttribute('data-desc');
-        });
-    });
-
-    // --- 6. FORM HANDLING ---
-    const form = document.getElementById('contact-form');
-    const status = document.getElementById('form-status');
-    
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const btn = form.querySelector('button[type="submit"]');
-        const originalText = btn.textContent;
-        btn.textContent = 'Sending...';
-        btn.disabled = true;
-
-        // Simulate form submission
-        setTimeout(() => {
-            btn.textContent = originalText;
-            btn.disabled = false;
-            form.reset();
-            status.textContent = 'Thank you! Your message has been sent successfully.';
-            status.style.color = '#4ade80';
-            setTimeout(() => status.textContent = '', 5000);
-        }, 2000);
-    });
-
-    // --- 7. THREE.JS BACKGROUND (Simple Particle Field) ---
-    const canvas = document.createElement('canvas');
-    const heroSection = document.getElementById('hero');
-    heroSection.insertBefore(canvas, heroSection.firstChild);
-    canvas.classList.add('hero__canvas');
-    canvas.style.position = 'absolute';
-    canvas.style.top = '0';
-    canvas.style.left = '0';
-    canvas.style.width = '100%';
-    canvas.style.height = '100%';
-    canvas.style.zIndex = '-1';
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true });
-    
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(window.devicePixelRatio);
-
-    // Particles
-    const geometry = new THREE.BufferGeometry();
-    const particlesCount = 700;
-    const posArray = new Float32Array(particlesCount * 3);
-
-    for(let i = 0; i < particlesCount * 3; i++) {
-        posArray[i] = (Math.random() - 0.5) * 15; // Spread
-    }
-
-    geometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
-    const material = new THREE.PointsMaterial({
-        size: 0.02,
-        color: 0xd4af37, // Gold
-        transparent: true,
-        opacity: 0.8
-    });
-
-    const particlesMesh = new THREE.Points(geometry, material);
-    scene.add(particlesMesh);
-    camera.position.z = 3;
-
-    // Animation Loop
-    let mouseX = 0;
-    let mouseY = 0;
-
-    document.addEventListener('mousemove', (event) => {
-        mouseX = event.clientX / window.innerWidth - 0.5;
-        mouseY = event.clientY / window.innerHeight - 0.5;
-    });
-
-    const animate = () => {
-        requestAnimationFrame(animate);
-        particlesMesh.rotation.y += 0.001;
-        particlesMesh.rotation.x += 0.0005;
-
-        // Subtle parallax based on mouse
-        particlesMesh.rotation.x += mouseY * 0.01;
-        particlesMesh.rotation.y += mouseX * 0.01;
-
-        renderer.render(scene, camera);
-    };
-
-    animate();
-
-    // Resize Handler
-    window.addEventListener('resize', () => {
-        camera.aspect = window.innerWidth / window.innerHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-    });
-  </script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
